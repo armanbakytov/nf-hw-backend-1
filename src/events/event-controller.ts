@@ -6,6 +6,7 @@ class EventController {
     private eventService : EventService;
 
 
+    
     constructor(eventService : EventService){
         this.eventService = eventService;
     }
